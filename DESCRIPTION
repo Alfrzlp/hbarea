@@ -1,0 +1,23 @@
+Package: hbarea
+Type: Package
+Title: Small Area Estimation using Hierarchical Bayesian Method
+Version: 0.1.0
+Authors@R: c(
+      person("Azka Ubaidillah", role = "aut"),
+      person("Ika Yuni Wulansari", role = "aut"),
+      person("Zaza Yuda Perwira", role = c("aut")),
+      person("Ridson Al Farizal P", role = c("aut", "cre","cph"), email = "alfrzlp@gmail.com")
+    )
+Description: Provides several functions for area level of small area estimation using hierarchical Bayesian (HB) method with several univariate distributions for variable of interest. The dataset that used in every function is generated accordingly in the Example. The 'rjags' package is employed to obtain parameter estimates. Model-based estimators involves the HB estimators which include the mean and the variation of mean. For the reference, see Rao and Molina (2015) <doi:10.1002/9781118735855>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    cli,
+    coda,
+    dplyr,
+    rjags
+Depends: 
+    R (>= 4.00)
+SystemRequirements: JAGS (http://mcmc-jags.sourceforge.net)
+RoxygenNote: 7.2.0

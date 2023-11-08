@@ -1,0 +1,42 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# hbarea
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+# Author
+
+Azka Ubaidillah, Ika Yuni Wulansari, Zaza Yuda Perwira, Ridson Al
+Farizal P
+
+# Maintainer
+
+Ridson Al Farizal P \<alfrzlp@gmail.com\>
+
+# Description
+
+Provides several functions for area level of small area estimation using
+hierarchical Bayesian (HB) method with several univariate distributions
+for variable of interest. The dataset that used in every function is
+generated accordingly in the Example. The ‘rjags’ package is employed to
+obtain parameter estimates. Model-based estimators involves the HB
+estimators which include the mean and the variation of mean. For the
+reference, see Rao and Molina (2015) <doi:10.1002/9781118735855>.
+
+# Installation
+
+You can install the development version of saeHB.unit from
+[GitHub](https://github.com/) with:
+
+``` r
+install.packages("devtools")
+devtools::install_github("Alfrzlp/hbarea")
+```
+
+Or you can install cran version with
+
+``` r
+install.packages(hbarea)
+```
