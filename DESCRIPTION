@@ -16,6 +16,7 @@ Imports:
     cli,
     coda,
     dplyr,
+    methods,
     rjags
 Depends: 
     R (>= 4.00)

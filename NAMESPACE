@@ -2,5 +2,6 @@
 
 S3method(autoplot,saehb)
 export(autoplot)
+export(eblupfh)
 export(get_corr)
 export(hb_beta)
