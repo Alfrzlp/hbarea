@@ -4,6 +4,10 @@
 # hbarea
 
 <!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/hbarea)](https://CRAN.R-project.org/package=hbarea)
+[![R-CMD-check](https://github.com/Alfrzlp/hbarea/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Alfrzlp/hbarea/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 # Author
